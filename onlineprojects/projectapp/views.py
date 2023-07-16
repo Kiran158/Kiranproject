@@ -4,4 +4,4 @@ from django.template import loader
 
 
 def home(request):
-    return render(request, "projectapp/home.html")
+    return render(request, "home.html")
